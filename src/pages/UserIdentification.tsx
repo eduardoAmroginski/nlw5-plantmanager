@@ -40,7 +40,7 @@ export function UserIdentification() {
     }
 
     function handleSubmit(){
-        if(name){
+        if(isFilled){
             navigation.navigate('Confirmation');
         }
     }
