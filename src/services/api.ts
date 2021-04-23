@@ -5,3 +5,7 @@ const api = axios.create({
 });
 
 export default api;
+
+
+// Para rodar a API basta rodar o comando abaixo no terminal
+// json-server ./src/services/server.json --host <Digite o Host> --port <Digite a Porta> --delay 700
